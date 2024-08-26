@@ -2,7 +2,7 @@ const lynx = require('lynx');
 
 // instantiate a metrics client
 //  Note: the metric hostname is hardcoded here
-const metrics = new lynx('graphite', 8125);
+const metrics = new lynx('localhost', 8125);
 
 // sleep for a given number of milliseconds
 function sleep(ms) {
